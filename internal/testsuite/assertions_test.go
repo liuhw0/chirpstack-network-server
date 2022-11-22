@@ -13,9 +13,9 @@ import (
 	"github.com/brocaar/chirpstack-api/go/v3/as"
 	"github.com/brocaar/chirpstack-api/go/v3/gw"
 	"github.com/brocaar/chirpstack-api/go/v3/nc"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/storage"
-	"github.com/brocaar/lorawan"
-	"github.com/brocaar/lorawan/backend"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/storage"
+	"github.com/liuhw0/lorawan"
+	"github.com/liuhw0/lorawan/backend"
 )
 
 var lastToken uint32

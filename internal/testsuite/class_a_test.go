@@ -15,14 +15,14 @@ import (
 	"github.com/brocaar/chirpstack-api/go/v3/common"
 	"github.com/brocaar/chirpstack-api/go/v3/gw"
 	"github.com/brocaar/chirpstack-api/go/v3/nc"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/band"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/downlink"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/helpers"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/storage"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/test"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/uplink"
-	"github.com/brocaar/lorawan"
-	loraband "github.com/brocaar/lorawan/band"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/band"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/downlink"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/helpers"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/storage"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/test"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/uplink"
+	"github.com/liuhw0/lorawan"
+	loraband "github.com/liuhw0/lorawan/band"
 )
 
 func init() {

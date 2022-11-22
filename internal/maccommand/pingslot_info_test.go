@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/brocaar/chirpstack-network-server/v3/internal/models"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/storage"
-	"github.com/brocaar/lorawan"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/models"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/storage"
+	"github.com/liuhw0/lorawan"
 )
 
 type PingSlotInfoTestSuite struct {

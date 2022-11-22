@@ -5,8 +5,8 @@ import (
 
 	"github.com/brocaar/chirpstack-api/go/v3/common"
 	"github.com/brocaar/chirpstack-api/go/v3/ns"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/models"
-	"github.com/brocaar/lorawan"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/models"
+	"github.com/liuhw0/lorawan"
 )
 
 // CreateUplinkFrameLog creates a UplinkFrameLog.

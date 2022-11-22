@@ -6,9 +6,9 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/chirpstack-network-server/v3/internal/logging"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/storage"
-	"github.com/brocaar/lorawan"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/logging"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/storage"
+	"github.com/liuhw0/lorawan"
 )
 
 // RequestRXTimingSetup modifies the RX delay between the end of the TX

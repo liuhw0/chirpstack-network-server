@@ -1,6 +1,6 @@
 # ChirpStack Network Server
 
-![Tests](https://github.com/brocaar/chirpstack-network-server/actions/workflows/main.yml/badge.svg?branch=master)
+![Tests](https://github.com/liuhw0/chirpstack-network-server/actions/workflows/main.yml/badge.svg?branch=master)
 
 ChirpStack Network Server is an open-source LoRaWAN network-server, part of
 [ChirpStack](https://www.chirpstack.io/). It is responsible for
@@ -27,7 +27,7 @@ and the scheduling of downlink data transmissions.
 * [Contributing](https://www.chirpstack.io/network-server/community/contribute/)
 * Support
   * [Support forum](https://forum.chirpstack.io)
-  * [Bug or feature requests](https://github.com/brocaar/chirpstack-network-server/issues)
+  * [Bug or feature requests](https://github.com/liuhw0/chirpstack-network-server/issues)
 
 ## Sponsors
 
@@ -38,4 +38,4 @@ and the scheduling of downlink data transmissions.
 ## License
 
 ChirpStack Network Server is distributed under the MIT license. See also
-[LICENSE](https://github.com/brocaar/chirpstack-network-server/blob/master/LICENSE).
+[LICENSE](https://github.com/liuhw0/chirpstack-network-server/blob/master/LICENSE).

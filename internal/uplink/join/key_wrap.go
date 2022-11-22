@@ -5,8 +5,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/brocaar/lorawan"
-	"github.com/brocaar/lorawan/backend"
+	"github.com/liuhw0/lorawan"
+	"github.com/liuhw0/lorawan/backend"
 )
 
 // unwrapNSKeyEnveope returns the decrypted key from the given KeyEnvelope.

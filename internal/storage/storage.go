@@ -15,9 +15,9 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/chirpstack-network-server/v3/internal/config"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/migrations/code"
-	codemig "github.com/brocaar/chirpstack-network-server/v3/internal/storage/migrations/code"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/config"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/migrations/code"
+	codemig "github.com/liuhw0/chirpstack-network-server/v3/internal/storage/migrations/code"
 )
 
 // Migrations

@@ -6,7 +6,7 @@ import (
 	"encoding/gob"
 	"time"
 
-	"github.com/brocaar/chirpstack-network-server/v3/internal/logging"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/logging"
 	"github.com/go-redis/redis/v8"
 	"github.com/gofrs/uuid"
 	"github.com/jmoiron/sqlx"

@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/brocaar/chirpstack-api/go/v3/nc"
-	"github.com/brocaar/lorawan"
-	"github.com/brocaar/lorawan/band"
+	"github.com/liuhw0/lorawan"
+	"github.com/liuhw0/lorawan/band"
 )
 
 // Version defines the ChirpStack Network Server version.

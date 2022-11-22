@@ -2,8 +2,8 @@ package models
 
 import (
 	"github.com/brocaar/chirpstack-api/go/v3/gw"
-	"github.com/brocaar/lorawan"
-	"github.com/brocaar/lorawan/backend"
+	"github.com/liuhw0/lorawan"
+	"github.com/liuhw0/lorawan/backend"
 	"github.com/gofrs/uuid"
 )
 

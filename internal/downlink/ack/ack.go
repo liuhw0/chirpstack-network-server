@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/brocaar/lorawan"
+	"github.com/liuhw0/lorawan"
 	"github.com/gofrs/uuid"
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
@@ -17,12 +17,12 @@ import (
 	"github.com/brocaar/chirpstack-api/go/v3/gw"
 	"github.com/brocaar/chirpstack-api/go/v3/nc"
 	"github.com/brocaar/chirpstack-api/go/v3/ns"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/backend/controller"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/backend/gateway"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/framelog"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/helpers"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/logging"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/storage"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/backend/controller"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/backend/gateway"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/framelog"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/helpers"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/logging"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/storage"
 )
 
 var (

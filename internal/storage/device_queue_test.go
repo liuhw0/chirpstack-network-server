@@ -9,10 +9,10 @@ import (
 	. "github.com/smartystreets/goconvey/convey"
 	"github.com/stretchr/testify/require"
 
-	"github.com/brocaar/chirpstack-network-server/v3/internal/backend/applicationserver"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/gps"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/test"
-	"github.com/brocaar/lorawan"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/backend/applicationserver"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/gps"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/test"
+	"github.com/liuhw0/lorawan"
 )
 
 func TestDeviceQueueItemValidate(t *testing.T) {

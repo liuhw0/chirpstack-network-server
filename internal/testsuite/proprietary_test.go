@@ -10,10 +10,10 @@ import (
 	"github.com/brocaar/chirpstack-api/go/v3/common"
 	"github.com/brocaar/chirpstack-api/go/v3/gw"
 	"github.com/brocaar/chirpstack-api/go/v3/ns"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/downlink"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/storage"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/test"
-	"github.com/brocaar/lorawan"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/downlink"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/storage"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/test"
+	"github.com/liuhw0/lorawan"
 )
 
 type ProprietaryTestCase struct {

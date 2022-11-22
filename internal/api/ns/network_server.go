@@ -15,17 +15,17 @@ import (
 
 	"github.com/brocaar/chirpstack-api/go/v3/common"
 	"github.com/brocaar/chirpstack-api/go/v3/ns"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/adr"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/band"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/config"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/downlink/multicast"
-	proprietarydown "github.com/brocaar/chirpstack-network-server/v3/internal/downlink/proprietary"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/framelog"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/gateway"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/helpers"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/storage"
-	"github.com/brocaar/lorawan"
-	"github.com/brocaar/lorawan/backend"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/adr"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/band"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/config"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/downlink/multicast"
+	proprietarydown "github.com/liuhw0/chirpstack-network-server/v3/internal/downlink/proprietary"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/framelog"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/gateway"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/helpers"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/storage"
+	"github.com/liuhw0/lorawan"
+	"github.com/liuhw0/lorawan/backend"
 )
 
 // defaultCodeRate defines the default code rate

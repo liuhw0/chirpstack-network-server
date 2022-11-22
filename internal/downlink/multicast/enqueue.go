@@ -7,9 +7,9 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
 
-	"github.com/brocaar/chirpstack-network-server/v3/internal/gps"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/helpers/classb"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/storage"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/gps"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/helpers/classb"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/storage"
 )
 
 // EnqueueQueueItem selects the gateways that must be used to cover all devices

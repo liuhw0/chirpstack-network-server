@@ -4,6 +4,8 @@ ENV PROJECT_PATH=/chirpstack-network-server
 ENV PATH=$PATH:$PROJECT_PATH/build
 ENV CGO_ENABLED=0
 ENV GO_EXTRA_BUILD_ARGS="-a -installsuffix cgo"
+ENV GO111MODULE=on
+ENV GOPROXY https://goproxy.cn,direct
 
 RUN apk add --no-cache ca-certificates tzdata make git bash protobuf
 RUN git config --global --add safe.directory $PROJECT_PATH

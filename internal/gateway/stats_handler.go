@@ -8,9 +8,9 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	"github.com/brocaar/chirpstack-api/go/v3/gw"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/backend/gateway"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/gateway/stats"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/logging"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/backend/gateway"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/gateway/stats"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/logging"
 )
 
 // StatsHandler represents a stat handler for incoming gateway stats.

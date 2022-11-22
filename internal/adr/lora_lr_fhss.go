@@ -1,8 +1,8 @@
 package adr
 
 import (
-	"github.com/brocaar/chirpstack-network-server/v3/adr"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/band"
+	"github.com/liuhw0/chirpstack-network-server/v3/adr"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/band"
 )
 
 // LoRaLRFHSSHandler implements a LoRa / LR-FHSS ADR handler.

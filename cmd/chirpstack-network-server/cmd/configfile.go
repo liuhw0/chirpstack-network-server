@@ -7,7 +7,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/brocaar/chirpstack-network-server/v3/internal/config"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/config"
 )
 
 // when updating this template, don't forget to update config.md!
@@ -63,7 +63,7 @@ dsn="{{ .PostgreSQL.DSN }}"
 # Automatically apply database migrations.
 #
 # It is possible to apply the database-migrations by hand
-# (see https://github.com/brocaar/chirpstack-network-server/tree/master/internal/storage/migrations)
+# (see https://github.com/liuhw0/chirpstack-network-server/tree/master/internal/storage/migrations)
 # or let ChirpStack Application Server migrate to the latest state automatically, by using
 # this setting. Make sure that you always make a backup when upgrading ChirpStack
 # Application Server and / or applying migrations.

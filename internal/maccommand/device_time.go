@@ -8,11 +8,11 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/brocaar/chirpstack-network-server/v3/internal/gps"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/logging"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/models"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/storage"
-	"github.com/brocaar/lorawan"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/gps"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/logging"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/models"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/storage"
+	"github.com/liuhw0/lorawan"
 )
 
 // handleDeviceTimeReq returns the timestamp after the RX was completed.

@@ -1,7 +1,7 @@
 package test
 
 import (
-	"github.com/brocaar/lorawan/backend"
+	"github.com/liuhw0/lorawan/backend"
 	context "golang.org/x/net/context"
 )
 

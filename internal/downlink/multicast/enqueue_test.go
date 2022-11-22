@@ -8,11 +8,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/brocaar/lorawan"
+	"github.com/liuhw0/lorawan"
 
-	"github.com/brocaar/chirpstack-network-server/v3/internal/config"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/storage"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/test"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/config"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/storage"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/test"
 )
 
 type EnqueueQueueItemTestCase struct {

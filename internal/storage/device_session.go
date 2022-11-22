@@ -16,10 +16,10 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	"github.com/brocaar/chirpstack-api/go/v3/common"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/band"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/logging"
-	"github.com/brocaar/lorawan"
-	loraband "github.com/brocaar/lorawan/band"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/band"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/logging"
+	"github.com/liuhw0/lorawan"
+	loraband "github.com/liuhw0/lorawan/band"
 )
 
 const (

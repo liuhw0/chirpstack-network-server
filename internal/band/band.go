@@ -3,9 +3,9 @@ package band
 import (
 	"github.com/pkg/errors"
 
-	"github.com/brocaar/chirpstack-network-server/v3/internal/config"
-	"github.com/brocaar/lorawan"
-	loraband "github.com/brocaar/lorawan/band"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/config"
+	"github.com/liuhw0/lorawan"
+	loraband "github.com/liuhw0/lorawan/band"
 )
 
 var band loraband.Band

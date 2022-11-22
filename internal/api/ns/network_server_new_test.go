@@ -16,15 +16,15 @@ import (
 
 	"github.com/brocaar/chirpstack-api/go/v3/common"
 	"github.com/brocaar/chirpstack-api/go/v3/ns"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/band"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/config"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/gateway"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/gps"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/helpers/classb"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/storage"
-	"github.com/brocaar/chirpstack-network-server/v3/internal/test"
-	"github.com/brocaar/lorawan"
-	loraband "github.com/brocaar/lorawan/band"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/band"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/config"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/gateway"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/gps"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/helpers/classb"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/storage"
+	"github.com/liuhw0/chirpstack-network-server/v3/internal/test"
+	"github.com/liuhw0/lorawan"
+	loraband "github.com/liuhw0/lorawan/band"
 )
 
 type NetworkServerAPITestSuite struct {
